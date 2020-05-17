@@ -169,6 +169,9 @@ int Spiderman[5]={0,1,0,0,1};
 
 void setup() {
 /*  portal();*/
+//  pinMode(latchPin, OUTPUT);
+//  pinMode(dataPin, OUTPUT);  
+//  pinMode(clockPin, OUTPUT);
   Index.Setup(p1Pin,p1LatPin);
   Middle.Setup(p2Pin,p2LatPin);
   Ring.Setup(p3Pin,p3LatPin);
